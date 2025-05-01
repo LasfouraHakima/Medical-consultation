@@ -1,0 +1,51 @@
+.app {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #fef9f4;
+    color: #070606;
+    min-height: 100vh;
+  }
+  
+  .main-title {
+    color: #d17f8c;
+    font-size: 50px;
+  }
+  
+  .section-title {
+    color: #b04e5b;
+    margin-top: 30px;
+  }
+  
+  .paragraph {
+    max-width: 700px;
+    margin: auto;
+    text-align: left;
+    line-height: 1.4;
+    font-size:30px ;
+  }
+  
+  .list {
+    list-style-type: '💡 ';
+    padding-left: 20px;
+    text-align: left;
+    max-width: 700px;
+    margin: auto;
+    font-size: 22px;
+  }
+  
+  .start-button {
+    margin-top: 50px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #d17f8c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .start-button:hover {
+    background-color: #c06979;
+  }
+  

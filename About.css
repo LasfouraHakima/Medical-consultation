@@ -1,0 +1,44 @@
+.about {
+    background-image: url('../asset/picturs/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    position: relative; /* تضمن وضع العنوان في الجزء العلوي */
+}
+
+.about .image {
+    flex: 1 1 45rem;
+}
+
+.about .image img {
+    width: 100%;
+}
+
+.about .content {
+    flex: 1 1 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* يجعل المحتوى متمركزًا عموديًا */
+    text-align: center; /* يجعل النصوص متمركزة أفقيًا */
+    padding-top: 10rem; /* لتحديد المسافة من الأعلى */
+}
+
+.about .content h1 {
+    font-size: 7rem;
+    color: var(--black);
+    line-height: 1.2;
+    text-shadow: var(--text-shadow);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); /* يحرك العنوان إلى المنتصف */
+}
+
+.about .content p {
+    font-size: 3rem;
+    line-height: 1;
+}
